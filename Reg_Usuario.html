@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+     <title>RADIO UNIVERSIDAD</title>
+     <style type="text/css">
+        body{background-image: url("imagenes/bannerx.jpg");
+        color:black;
+        font-size: 20px;}
+     </style>
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0"> 
+     <link rel="stylesheet" href="Estilos.css">   
+</head>
+<body class="body-reg">
+    <div class="menu">
+        <div id="contenedor">
+              <h1>Cabinas Radio UAA</h1>
+              <ul class="horizontal" id=”button”>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Reg_Usuario.html" class="current">Registrarse</a></li>
+                    <li><a href="Aparta_Cabina.html">Apartar Cabina</a></li>
+                    <li><a href="Cancela_Cabina.html">Cancelar Apartado</a></li>
+              </ul>   
+        </div>
+    </div>
+
+    <form action="Reg_Usuario.php" method="post" class="form-reg">
+        <h2>Regístrate</h2>
+
+        Nombre<input type="varchar"id="Nomb" name="Nomb" placeholder="Nombre o nombres">
+        Apellido Paterno<input type="varchar" id="ApPat" name="ApPat" placeholder="">
+        Apellido Materno<input type="varchar" id="ApMat" name="ApMat" placeholder="">
+        Programa<input type="varchar" id="Programa" name="Programa" placeholder="">
+    
+        Usuario<input type="varchar" id="User" name="User" placeholder="Tu nombre de usuario">
+        Contraseña<input type="varchar" id="Pass" name="Pass" placeholder="Al menos 6 caracteres">
+        Confirmar Contraseña<input type="varchar" id="Pass1" name="Pass1" placeholder="Ingresa nuevamente su Contraseña">
+    
+        <input type="submit" value="Aceptar">
+        <input type="button" onclick="window.location.href = 'Aparta_Cabina.html';" value="Ya tengo una cuenta"> 
+    </form>
+</body>
+</html>

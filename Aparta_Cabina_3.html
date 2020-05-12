@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+     <title>RADIO UNIVERSIDAD</title>
+     <style type="text/css">
+        body{background-image: url("imagenes/bannerx.jpg");
+        color:black;
+        font-size: 20px;}
+     </style>
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0"> 
+     <link rel="stylesheet" href="Estilos.css">   
+</head>
+<body class="body-cc">
+    
+    <div class="menu">
+        <div id="contenedor">
+              <h1>Cabinas Radio UAA</h1>
+              <ul class="horizontal" id=”button”>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Reg_Usuario.html">Registrarse</a></li>
+                    <li><a href="Aparta_Cabina.html">Apartar Cabina</a></li>
+                    <li><a href="Cancela_Cabina.html" class="current">Cancelar Apartado</a></li>
+              </ul>   
+        </div>
+    </div>
+
+    <form class="form-fecha">
+    <h2>Selecciona el día y la hora</h2>
+    Fecha<input type="date" id="Fecha" name="Fecha"> 
+    Hora de Ingreso<input type="time" id="HrIngreso" name="HrIngreso">
+    Hora de Salida<input type="time" id="HrSalida" name="HrSalida">
+    Acompañantes<input type="int" id="NumAcomp" name="NumAcomp" placeholder="Número de acompañantes">
+    
+    <input type="submit" value="Apartar cabina">
+    </form>
+</body>
+</html>

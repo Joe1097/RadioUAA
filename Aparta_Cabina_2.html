@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+     <title>Radio Universidad</title>
+     
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0"> 
+     <link rel="stylesheet" type="text/css" href="Estilos.css">   
+</head>
+<body>
+    <div class="menu">
+        <div id="contenedor">
+              <h1>Cabinas Radio UAA</h1>
+              <ul class="horizontal" id=”button”>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Reg_Usuario.html">Registrarse</a></li>
+                    <li><a href="Aparta_Cabina.html" class="current">Apartar Cabina</a></li>
+                    <li><a href="Cancela_Cabina.html">Cancelar Apartado</a></li>
+              </ul>   
+        </div>
+    </div>
+    
+    <div class="div-tabla">
+        <div>
+        <table>
+            <h2>Reservaciones</h2>
+            <tr class="table-header">
+                <th>Cabina</th><th>Capacidad</th><th>Encargado Matutino</th><th>Encargado Vespertino</th><th>Apartar</th>
+            </tr>
+            <tr>
+                <td>Cabina 1</td><td>5</td><td>Alejandra De Los Rios</td><td>Sergio Castañeda Pacheco</td>
+                <td><input type="radio" name="cabinas" id="cabina_1" value="1"></td>
+            </tr>
+            <tr>
+                <td>Cabina 2</td><td>6</td><td>Rafael Polo</td><td>Sergio Castañeda Pacheco</td>
+                <td><input type="radio" name="cabinas" id="cabina_2" value="2"></td>
+            </tr>
+            <tr>
+                <td>Estudio Grande</td><td>8</td><td>Alejandra De Los Rios</td><td>Sergio Castañeda Pacheco</td>
+                <td><input type="radio" name="cabinas" id="estudio_grande" value="3"></td>
+            </tr>
+        </table>  
+        </div>
+            
+        <input type="submit" value="Siguiente" id="btn-sig">             
+    </div>
+    
+</body>
+</html>    

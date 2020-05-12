@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Radio Universidad</title>
+  <script text/javascript src="validaciones.js"></script>
+  <link rel="stylesheet" type="text/css" href="Estilos.css">  
+</head>
+<body>
+
+  <div class="menu">
+    <div id="contenedor">
+          <h1>Cabinas Radio UAA</h1>
+          <ul class="horizontal" id=”button”>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Reg_Usuario.html">Registrarse</a></li>
+                <li><a href="Aparta_Cabina.html" class="current">Apartar Cabina</a></li>
+                <li><a href="Cancela_Cabina.html">Cancelar Apartado</a></li>
+          </ul>   
+    </div>
+  </div>
+    
+  <div>
+    <div class="half"></div>
+    <form action="Aparta_Cabina.php" method="post">
+      <h2>Inicia Sesión</h2>
+
+      Usuario<input type="varchar" id="User" name="User" placeholder="Tu nombre de usuario" onblur="validarInyeccionSQL(User.value,'El nombre de usuario ')">
+      Contraseña<input type="password" id="Pass" name="Pass" onblur="validarInyeccionSQL(User.value,'La Contraseña ')" placeholder="">
+      
+      <input type="submit" value="Iniciar Sesión">
+      <input type="button" onclick="window.location.href = 'Reg_Usuario.html';" value="No tengo una cuenta" > 
+    </form>
+  </div>
+
+</body>
+</html>
