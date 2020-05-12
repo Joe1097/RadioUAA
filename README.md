@@ -4,7 +4,7 @@ Este es el diseño de una aplicación web que hice para mi Universidad. Esta per
 
 Me parece que el proyecto fue cancelado y por eso sólo permaneció en la fase de diseño.
 
-En este momento el proyecto consiste únicamente de archivos .html, .csss y las imágenes necesarias para su diseño.
+En este momento el proyecto consiste únicamente de archivos .html, .css y las imágenes necesarias para su diseño.
 
 ### ¿Cómo montar el proyecto?
 
